@@ -39,7 +39,7 @@ int main()
 	for(m=a;m>=1;m--)
 		if((a*a+1)%m==0)
 			break;
-		n=(a*a+1)/m;
-		printf("%I64d\n",2*a+m+n);
-		return 1;
+	n=(a*a+1)/m;
+	printf("%I64d\n",2*a+m+n);
+	return 0;
 }
